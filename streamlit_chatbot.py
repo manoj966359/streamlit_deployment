@@ -27,13 +27,13 @@ def get_ai_response(messages):
 def main():
     
     st.set_page_config(
-        page_title="Rakesh's Chatbot",    # Browser tab title
+        page_title="Manoj Chatbot",    # Browser tab title
         page_icon="🤖",           # Browser tab icon
         layout="centered"         # Page layout style
     )
 
     # Create the page header
-    st.title("🤖 Rakesh's Chatbot")
+    st.title("🤖 Manoj Chatbot")
     st.markdown("---")  # Horizontal line separator
 
     if "messages" not in st.session_state:
